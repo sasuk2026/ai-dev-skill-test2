@@ -15,3 +15,15 @@
   .btn { display:inline-block; min-height:44px; line-height:44px; padding:0 28px; border-radius:22px;
          background:linear-gradient(90deg,#6366f1,#8b5cf6); color:#fff; font-size:15px; border:none; }
   .tip { margin-top:16px; font-size:12px; color:#64748b; }
+
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>🧩 分段写入成功</h1>
+    <p>这个页面由两段 write_file（第一段 write、第二段 mode=append）拼成，验证大文件防截断机制。</p>
+    <button class="btn" onclick="this.textContent='✅ 拼接完好'">点我试试</button>
+    <div class="tip">mode=append · 质量门 · 私有仓库拦截 · 换名重试 · 上线预热</div>
+  </div>
+</body>
+</html>
